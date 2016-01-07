@@ -31,6 +31,6 @@ class Draw
 end
 
 
-root = TkRoot.new{ title 'Canvas' }
+root = TkRoot.new{title 'Canvas'}
 Draw.new(root)
 Tk.mainloop

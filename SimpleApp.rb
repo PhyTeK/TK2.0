@@ -34,7 +34,7 @@ class PigBox
     @entry.pack(ph)
 
     TkButton.new(top) {text 'Pig It'; command p; pack ph}
-    TkButton.new(top) {text 'Exit'; command {proc exit}; pack ph}
+    TkButton.new(top) {text 'Exit'; command {exit}; pack ph}
     top.pack('fill'=>'both', 'side' =>'top')
   end
 end
